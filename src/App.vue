@@ -25,8 +25,8 @@ const resultado = db.findIndex(tech => tech.id === idGuitarraOferta)
 
 // GUITARRA DE LA SEMANA ------------------------------------------------------------------------------
 
-const idGuitarraOferta = 9 // cambiando el codigo de 1 a 12 establece GUITARRA DE LA SEMANA
-const cantidadMaxVenta = 18, cantidadMinVenta = 0 // establezco max y min unidades de venta
+const idGuitarraOferta = 12 // cambiando el codigo de 1 a 12 establece GUITARRA DE LA SEMANA
+const cantidadMaxVenta = 18, cantidadMinVenta = 1 // establezco max y min unidades de venta
 
 // ----------------------------------------------------------------------------------------------------
 

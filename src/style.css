@@ -26,6 +26,7 @@
   filter: drop-shadow(0 0 3vw #e99401);
   transform: scale(1.6);
   transform-origin: left;
+  z-index: 1000;
 }
 
 .guitarra-semana {
@@ -95,6 +96,8 @@
   border: 0px solid #ccc;
   padding: 0px;
   overflow-y: auto; /* Hace que aparezca la barra de desplazamiento vertical si es necesario */
+  z-index: 5;
+
 }
 
 /* Estilos adicionales según tus preferencias */
@@ -602,6 +605,7 @@ tr {
   /* FIXME: display flex me deja sacar y poner scroll y alinear el carrito*/
   display: flex;
   flex-direction: column;
+  z-index: 1;
 }
 
 .table > :not(caption) > * > * {
@@ -616,6 +620,7 @@ tr {
   vertical-align: bottom;
   background-color: #e99401;
   border-bottom: 4mm ridge rgba(196, 206, 11, 0.767);
+  z-index: 1;
 }
 
 .btn {
